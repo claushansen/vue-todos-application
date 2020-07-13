@@ -1,0 +1,27 @@
+<template>
+<header>
+    <h1>TodoList</h1>
+</header>
+  
+</template>
+
+<script>
+export default {
+    name: "Header"
+
+}
+</script>
+
+<style scoped>
+    header {
+        background: #000;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+    }
+
+    header a {
+        color: #fff;
+        padding: 5px;
+    }
+</style>
